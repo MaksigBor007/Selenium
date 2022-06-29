@@ -1,0 +1,68 @@
+Selenium Class 01
+
+What is software testing?
+--identify the correctness and quality of thr application
+
+How many ways we can actually test?
+--manuel
+--automation
+
+When do we go for automation testing?
+--after manual testing is passed
+--when environment is stable
+--analyze out test suite and choose our automation tools
+
+What automation tools do we know about?
+--Selenium,Cucumber,TestNG,Junit,Katalon Studio(never mess with it,lots of flows),UFT/QTP
+
+Level of testing:
+--Unit testing - performed be Devs
+--integration testing - performed by QA
+--acceptance testing - performed by users, end user
+--system testing - Mostly DevOps
+
+Types of Testing
+--Functional(Main focus for QA's here)
+  smoke regression sanity
+--Non-Functional
+    Performance testing - load or stress performance of the application in a sever load
+    Security testing - how easy is your application to hack
+
+What is Selenium?
+--is set of tools that help us to automate web applications only.It is mainly used to perform functional testing
+
+
+Selenium Components:
+--IDE- integrated development environment
+--WebDriver -
+--GRid - FireFox plugin
+--RC - Remote Control
+
+Wht is Selenium WebDriver?
+Open source automation tool which allows us to perform actions on a Web applications
+WebDriver is an Interface.
+
+Advantages of Selenium Webdriver:
+--open source
+--works with different browsers and support cross browsing testing
+--OS independent
+
+Disadvantages:
+--cannot test desktop application
+--no technical support
+--no built in reports
+--not able to test images,videos,captchas
+
+
+Get VS Navigate:
+--navigate can go back,forward and refresh
+--get will wait for the page to fully download whereas navigate will not
+--get will not keep the history of the browser whereas navigate will
+
+Close vs Quite:
+--close close the current tab
+--quit close the whole browser
+
+Fullscreen VS Maximize:
+--maximize will maximize the browser and will be able to see the control panel(back,forward,bookmarks)
+--fullscreen will open the whole web page
