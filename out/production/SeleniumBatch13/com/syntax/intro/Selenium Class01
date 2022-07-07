@@ -1,7 +1,7 @@
 Selenium Class 01
 
 What is software testing?
---identify the correctness and quality of thr application
+--identify the correctness and quality of the application
 
 How many ways we can actually test?
 --manuel
@@ -38,7 +38,7 @@ Selenium Components:
 --GRid - FireFox plugin
 --RC - Remote Control
 
-Wht is Selenium WebDriver?
+What is Selenium WebDriver?
 Open source automation tool which allows us to perform actions on a Web applications
 WebDriver is an Interface.
 

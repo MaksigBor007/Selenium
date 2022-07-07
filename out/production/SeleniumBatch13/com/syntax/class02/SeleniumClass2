@@ -25,7 +25,7 @@ is used to locate or identify webelements on the webpage
 --CssSelectors
 --ClassName
 
-Why do se need so many locators?
+Why do we need so many locators?
 --devs may not provide all elements for all elements
 --some locators may have duplicate value in different nodes
 e.g Linktext and partialtext are only used for links
