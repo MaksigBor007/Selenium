@@ -33,7 +33,7 @@ public class HW2 {
         driver.findElement(By.name("websubmit")).click();
         Thread.sleep(3000);
         driver.findElement(By.cssSelector("img[src='https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/__geKiQnSG-.png']")).click();
-        driver.close();
+
 
     }
 }

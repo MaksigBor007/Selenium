@@ -32,7 +32,7 @@ public static String url ="https://syntaxprojects.com/basic-select-dropdown-demo
         System.out.println(size);
 
         for(int i=1;i<size;i++){
-           String option=allOptions.get(i).getText();
+            String option=allOptions.get(i).getText();
             System.out.println(option);
             select.selectByIndex(i);
             Thread.sleep(1000);

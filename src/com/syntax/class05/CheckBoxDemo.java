@@ -11,7 +11,7 @@ public class CheckBoxDemo {
     public static String url = "https://www.syntaxprojects.com/basic-checkbox-demo.php";
 
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get(url);
         List<WebElement> optionCheckboxes = driver.findElements(By.xpath("//input[@class = 'cb1-element']"));
