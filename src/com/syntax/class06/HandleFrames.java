@@ -10,26 +10,26 @@ public class HandleFrames {
     public static String url = "http://www.uitestpractice.com/Students/Switchto";
 
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get(url);
         driver.switchTo().frame(0);
         WebElement textbox = driver.findElement(By.id("name"));
         textbox.sendKeys("Batch 13 Forever!!!");
-
+Thread.sleep(1000);
         driver.switchTo().defaultContent();
 
         WebElement alertButton = driver.findElement(By.id("alert"));
         alertButton.click();
         Alert alert = driver.switchTo().alert();
         alert.accept();
-
+Thread.sleep(1000);
         driver.switchTo().frame("iframe_a");
         textbox.clear();
         textbox.sendKeys("we are back to the frame");
 
         driver.switchTo().defaultContent();
-
+Thread.sleep(1000);
         WebElement frameElement = driver.findElement(By.xpath("//iframe[@src = '/Demo.html']"));
         driver.switchTo().frame(frameElement);
         textbox.clear();
